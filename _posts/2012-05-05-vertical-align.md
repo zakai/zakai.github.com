@@ -6,7 +6,7 @@ category: "CSS"
 tags: ["CSS"]
 ---
 
-`翻译自 [Understanding CSS’s vertical-align Property](http://www.impressivewebs.com/css-vertical-align/)  By Louis Lazaris`
+- 翻译自 [Understanding CSS’s vertical-align Property](http://www.impressivewebs.com/css-vertical-align/)  By Louis Lazaris
 
 瞧，又有前端开发人员在抱怨：“ X，Vertical-align 又不起作用了！”
 
