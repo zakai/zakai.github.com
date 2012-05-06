@@ -1,9 +1,8 @@
 /* Override some defaults */
 html, body {
-	background-image: url(../bootstrap/img/bg.gif);
+  background-color: #eee;
 }
 .navbar {
-  background-image: url(../bootstrap/img/bg.gif);
   margin-bottom: 0;
 }
 .container > footer {
