@@ -729,6 +729,7 @@ form.well {
   /* Remove any padding from the body */
   body {
     padding-top: 0;
+    min-width: 320px;
   }
 
   /* Jumbotron buttons */
