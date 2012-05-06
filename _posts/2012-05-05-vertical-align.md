@@ -6,6 +6,8 @@ category: "CSS"
 tags: ["CSS"]
 ---
 
+翻译自 [Understanding CSS’s vertical-align Property](http://www.impressivewebs.com/css-vertical-align/)  By Louis Lazaris
+
 瞧，又有前端开发人员在抱怨：“ X，Vertical-align 又不起作用了！”
 
 Vertical-align 属性看上去很简单，但是确实会给 CSS 新手带来很多的问题，即便是 CSS 的老手在这个点上也经常需要停下来把问题搞搞清楚。
@@ -18,10 +20,11 @@ Vertical-align 属性看上去很简单，但是确实会给 CSS 新手带来很
 
 这让我想起前些天我在使用 Table 时的一些东西：
 
-  `<td valign="top">  
+<code>
+  <td valign="top">  
   Whatever...  
   </td>
-  `
+</code>
 
 在 Table 中，“valign” 属性（在 HTML5 中被废弃）会让表格中的所有的元素置顶显示。所以，很自然的，当 CSS 开发人员使用 **vertical-align** 时会期待完成同样的效果，可惜的是，它只会在当前元素上起作用。
 
@@ -34,11 +37,11 @@ Vertical-align 属性看上去很简单，但是确实会给 CSS 新手带来很
 
 所以，下面的代码不会产生任何的影响:
 
- `
+<code>
  div {  
      vertical-align: middle; /* this won't do anything */  
  }  
- `
+</code>
 
 为什么呢？因为 `<div>` 是 block-level 元素，而不是 inline。当然如果你改变 Div 到 inline 或者 inline-block, **vertical-align** 就会生效了。
 
@@ -83,7 +86,7 @@ Vertical-align 属性看上去很简单，但是确实会给 CSS 新手带来很
 
 ----------
 
-
+<code>
 input {
         vertical-align: 100px;
 }
@@ -95,6 +98,7 @@ span {
 img {
         vertical-align: -300px;
 }
+</code>
 
 虽然你可以读取 [W3C关于 **vertical-align** 取值的解释](http://www.w3.org/TR/CSS21/visudet.html#propdef-vertical-align "W3C关于 **vertical-align** 取值的解释")，但是我觉得，自己通过尝试调整取值并查看其中的差异会更加有用。
 
