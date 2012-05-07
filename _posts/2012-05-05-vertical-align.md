@@ -8,7 +8,7 @@ tags: ["CSS"]
 
 - 翻译自 [Understanding CSS’s vertical-align Property](http://www.impressivewebs.com/css-vertical-align/)  By Louis Lazaris
 
-瞧，又有前端开发人员在抱怨：“ X，Vertical-align 又不起作用了！”
+瞧，又有前端开发人员在抱怨：“ X，坑爹的 Vertical-align 又不起作用了！”
 
 Vertical-align 属性看上去很简单，但是确实会给 CSS 新手带来很多的问题，即便是 CSS 的老手在这个点上也经常需要停下来把问题搞搞清楚。
 
@@ -103,7 +103,7 @@ img {
 虽然你可以读取 [W3C关于 **vertical-align** 取值的解释](http://www.w3.org/TR/CSS21/visudet.html#propdef-vertical-align "W3C关于 **vertical-align** 取值的解释")，但是我觉得，自己通过尝试调整取值并查看其中的差异会更加有用。
 
 ## 总结 ##
-如果让我用一句话概括怎么来使用这个一直被误解的属性的话：
+如果用一句话概括怎么来使用这个一直被误解的属性的话,我会说：
 
 **vertical-align** 属性只在 inline、inline-block 元素以及单元格内容有效，对于单元格无效，它只会影响当前阅读的对齐，而不是它的内容。
 
